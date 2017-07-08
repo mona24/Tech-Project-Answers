@@ -57,6 +57,7 @@
 		            </ul> -->
 		            <div class="tab-inner-warp">
 						<div class="tab-inner">
+							{% for item in navigation %}
 							<article class="question question-type-normal">
 								<h2>
 									<a href="single_question.html">This is my first Question</a>
@@ -68,7 +69,7 @@
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
-									<p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
+									<p class="question-desc">{{item}}</p>
 									<div class="question-details">
 										<span class="question-answered question-answered-done"><i class="icon-ok"></i>solved</span>
 										<span class="question-favorite"><i class="icon-star"></i>5</span>
@@ -80,7 +81,8 @@
 									<div class="clearfix"></div>
 								</div>
 							</article>
-							<article class="question question-type-poll">
+							{% endfor %}
+							<!-- <article class="question question-type-poll">
 								<h2>
 									<a href="single_question_poll.html">This Is My Second Poll Question</a>
 								</h2>
@@ -360,8 +362,8 @@
 								</div>
 							</article>
 							<article class="question question-type-normal">
-								<h2>
-									<a href="single_question.html">This Is My Sixth Question</a>
+								<h2> -->
+									<!-- <a href="single_question.html">This Is My Sixth Question</a>
 								</h2>
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
@@ -769,7 +771,7 @@
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
-									<p class="question-desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
+									<p class="question- --><!-- desc">Duis dapibus aliquam mi, eget euismod sem scelerisque ut. Vivamus at elit quis urna adipiscing iaculis. Curabitur vitae velit in neque dictum blandit. Proin in iaculis neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur vitae velit in neque dictum blandit.</p>
 									<div class="question-details">
 										<span class="question-answered"><i class="icon-ok"></i>in progress</span>
 										<span class="question-favorite"><i class="icon-star"></i>5</span>
@@ -803,7 +805,7 @@
 									<span class="question-view"><i class="icon-user"></i>70 views</span>
 									<div class="clearfix"></div>
 								</div>
-							</article>
+							</article> -->
 							<a href="#" class="load-questions"><i class="icon-refresh"></i>Load More Questions</a>
 					    </div>
 					</div>
@@ -820,7 +822,7 @@
 					</div>
 				</div>
 				
-				<div class="widget widget_social">
+				<!-- <div class="widget widget_social">
 					<h3 class="widget_title">Find Us</h3>
 					<ul>
 						<li class="rss-subscribers">
@@ -860,7 +862,7 @@
 							</a>
 						</li>
 					</ul>
-				</div>
+				</div> -->
 				
 				
 				
@@ -891,7 +893,7 @@
 					</ul>
 				</div>
 				
-				<div class="widget widget_tag_cloud">
+				<!-- <div class="widget widget_tag_cloud">
 					<h3 class="widget_title">Tags</h3>
 					<a href="#">projects</a>
 					<a href="#">Portfolio</a>
@@ -901,9 +903,9 @@
 					<a href="#">jQuery</a>
 					<a href="#">2code</a>
 					<a href="#">vbegy</a>
-				</div>
+				</div> -->
 				
-				<div class="widget">
+				<!-- <div class="widget">
 					<h3 class="widget_title">Recent Questions</h3>
 					<ul class="related-posts">
 						<li class="related-item">
@@ -917,7 +919,7 @@
 							<div class="clear"></div><span>Feb 22, 2014</span>
 						</li>
 					</ul>
-				</div>
+				</div> -->
 				
 			</aside><!-- End sidebar -->
 		</div><!-- End row -->
